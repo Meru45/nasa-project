@@ -1,0 +1,7 @@
+version: "3"
+services:
+    N6T-client:
+        image: meru45/n6t-client:latest
+        pull_policy: always
+        ports:
+            - 3000:80
